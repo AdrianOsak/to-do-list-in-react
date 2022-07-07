@@ -1,0 +1,27 @@
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+@media (max-width: 767px) {
+    .js-buttons {
+        grid-template-columns: 1fr;
+    }
+}
+
+.buttons__hidden {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: hsl(189, 89%, 30%);
+    transition: color 0.3s;
+}
+
+.buttons__hidden:disabled {
+    color: #ccc;
+}
+
+.buttons__hidden:hover {
+    color: hsl(189, 89%, 40%);
+}
