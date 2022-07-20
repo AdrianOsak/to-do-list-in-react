@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
-https://adrianosak.github.io/react-currency-converter/
+https://adrianosak.github.io/to-do-list-in-react/
 
 ## Description
 
