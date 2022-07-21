@@ -22,6 +22,10 @@
     color: #ccc;
 }
 
+.buttons__hidden:disabled:hover {
+    color: #ccc;
+}
+
 .buttons__hidden:hover {
     color: hsl(189, 89%, 40%);
 }
